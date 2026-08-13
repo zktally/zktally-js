@@ -11,8 +11,10 @@ export default defineConfig({
     'zktally-worker': 'src/worker/worker.ts',
   },
   format: ['esm', 'cjs'],
-  // Declarations come from `tsc --emitDeclarationOnly`. tsup's bundled dts
-  // plugin pins its own TypeScript and breaks against the one in devDependencies.
+  // Declarations come from `tsc --emitDeclarationOnly` instead: it emits one
+  // .d.ts per module, mirroring src/, which is what the exports map's
+  // ./dist/worker/index.d.ts entry points at. It is also an order of magnitude
+  // faster than tsup's dts pass.
   dts: false,
   clean: true,
   treeshake: true,
