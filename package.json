@@ -20,7 +20,7 @@
       "require": "./dist/index.cjs"
     },
     "./worker": {
-      "types": "./dist/worker.d.ts",
+      "types": "./dist/worker/index.d.ts",
       "import": "./dist/worker.js"
     }
   },
