@@ -1,0 +1,25 @@
+{
+  "description": "Valid binary proof for v=0.",
+  "expected": {
+    "challenge": "3JHGtx9SwFjn2FZfBHNswwRJ3V4NRp0ZEj_UCL56nX4",
+    "challengePreimage": "5a4b54616c6c792d76313a4e495a4b2d42494e4152593c3b69b8ed6fa131cb8b378a98777eb2c34534cc066527a84cb9cb7e1cabbec49bbc2e95de95a50bd315558f15f14d77f9746c3a9aa7a340742885de175c620294d4ea88028b6451f09d8951eaf42d78efc20475fc49605efae13fda3a2624c6798ace6e640e32f826367c3b8555a30545f28cca24b1d46c09ddc25260665354b01796025ebb85467be08749e09ffb61e8f1ee751a90d9d298ff913e04beee7f7559564903ef026d42a31f5389ef07bfadc4e2c798105f031a97a06df57556c5659f19ffe4afae55ca8424aaeeaba52de1418a2708e1cbc82221eae7b754b2f4",
+    "proof": {
+      "a0": "eYrObmQOMvgmNnw7hVWjBUXyjMoksdRsCd3CUmBmU1SwF5YCXruFRnvgh0ngn_th6PHudRqQ2dKY_5E-BL7ufw",
+      "a1": "dVlWSQPvAm1Cox9Tie8Hv63E4seYEF8DGpegbfV1VsVlnxn_5K-uVcqEJKruq6Ut4UGKJwjhy8giIernt1Sy9A",
+      "e0": "W9CBiySlXqlv71G_Yb9pjLYsqnDtpDaMUfwAb9_PUNw",
+      "e1": "gMFFK_qtYa936QSforQDNk4dMu0fomaMwEPTmN6rTKI",
+      "z0": "iCQhxR_2bLIhxJd93kI80-y0DjpA3r1Qc7ZDEJYSUKo",
+      "z1": "wO8FGfk6x9jd0Wi78jUBDd2AuOuqgHwZX1VbN35Ho8A"
+    },
+    "verifies": true
+  },
+  "inputs": {
+    "c": "m7wuld6VpQvTFVWPFfFNd_l0bDqap6NAdCiF3hdcYgKU1OqIAotkUfCdiVHq9C1478IEdfxJYF764T_aOiYkxg",
+    "ctx": "PDtpuO1voTHLizeKmHd-ssNFNMwGZSeoTLnLfhyrvsQ",
+    "n": "2u7t4ab4aNo-YdfHHJEMdFYa-KgJf7ENCSbOZAL341M",
+    "v": 0
+  },
+  "mustVerify": true,
+  "name": "binary-proof-v0-valid",
+  "specVersion": "zktally/1"
+}

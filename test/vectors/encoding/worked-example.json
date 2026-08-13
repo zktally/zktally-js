@@ -1,0 +1,27 @@
+{
+  "description": "The hand-verifiable toy example: p=7, q=11, m=1, r=5. Far below the modulus floor; encoding and arithmetic only.",
+  "expected": {
+    "aggregate": 5630,
+    "aggregateDecrypted": 2,
+    "ciphertext": 1928,
+    "decrypted": 1,
+    "encN2aggregate": "15fe",
+    "encN2c": "0788",
+    "encNn": "4d",
+    "g": 78,
+    "lam": 30,
+    "ln": 1,
+    "mu": 18,
+    "n": 77,
+    "nSquared": 5929
+  },
+  "inputs": {
+    "m": 1,
+    "p": 7,
+    "q": 11,
+    "r": 5
+  },
+  "mustVerify": true,
+  "name": "encoding-worked-example",
+  "specVersion": "zktally/1"
+}

@@ -1,0 +1,47 @@
+{
+  "description": "Deterministic encryption and decryption round-trips.",
+  "expected": {
+    "cases": [
+      {
+        "c": "YBozj8MAbx7PvMosKyXSaOBsJKThfXWwVInPBfwX9DcZxrzMjL8oa12-OMkQodX-e9hSnNTPyLLKle5DZkJ8jw",
+        "decrypted": "0",
+        "m": "0",
+        "r": "LDTOHfI7g4xavyp_ZDfMo9MGftUJ_yXxHfaxG1grUew"
+      },
+      {
+        "c": "Dcs_2mHhRw8KYUTkufetFR_sHhzEVEkAzhXclWwSmUlgsfivhR-7_Eg9GVO9h0heotoYcp0BKQBDV7fTYZN2HA",
+        "decrypted": "1",
+        "m": "1",
+        "r": "COACZv_wqsxkl08ipTYip9xFisG1_URq58maSpmlZOc"
+      },
+      {
+        "c": "OtpNXkjQqf57vt2amH6wp_4SXmT7Q0GEOyF00oLLbHLpRl0n5qhe_cZGq4I_WwjlZ4lO7ygE1jkHu6zC27hoAw",
+        "decrypted": "2",
+        "m": "2",
+        "r": "l1Z0ygdkIXgumT6FMk4xz80pXwyrv_eg7AeEXyPF6dk"
+      },
+      {
+        "c": "TK0N6TxSGfE5e889FY9CpRgKsfqF1kItbD6olONMRHuSKwLbicHg2QCJYHjBhTCLfnjzq_xr0FVdYXbYEVLvzg",
+        "decrypted": "12345",
+        "m": "12345",
+        "r": "ILc82BsrcHF-5R46VJWHV4hifvPpPOpPhe9x19nDLvU"
+      },
+      {
+        "c": "QyuookXZjDKSdqzWyqUvAFwx5Q27tvwFP8T5uiC8xd7uRzlOCnIQ75tvb0uEvZ4ljAbIoBzihgRQkT1YlV6RCg",
+        "decrypted": "99026352390025547799365863642415921092596910426726525576376084997375459320658",
+        "m": "99026352390025547799365863642415921092596910426726525576376084997375459320658",
+        "r": "kxvcJR9Q1rIhzF6-q0vVoYLvwmGGKr58HMsw-XdVNtY"
+      }
+    ]
+  },
+  "inputs": {
+    "g": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADa7u3hpvho2j5h18cckQx0Vhr4qAl_sQ0JJs5kAvfjVA",
+    "lam": "49513176195012773899682931821207960545983699732949713676731352742861587518500",
+    "ln": 32,
+    "mu": "51001792947031680357460596721750654964465235095973017772696794735503618872468",
+    "n": "2u7t4ab4aNo-YdfHHJEMdFYa-KgJf7ENCSbOZAL341M"
+  },
+  "mustVerify": true,
+  "name": "paillier-encrypt-decrypt",
+  "specVersion": "zktally/1"
+}

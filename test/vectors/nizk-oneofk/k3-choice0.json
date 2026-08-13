@@ -1,0 +1,20 @@
+{
+  "description": "1-of-3 ballot selecting candidate 0.",
+  "expected": {
+    "ciphertexts": [
+      "HLPnSRrNyBOrcUvRIiIFu2Wktp8D4z-R62elbv6pZlR1ozMVRKtffiUz8hIGr_OwmY1Iw_3-5qgUddap0mt_dw",
+      "aEwUPrC7E76XyiOyuc7cEzeEkHvrKMEw8b3tS6ZIwCcMNlwd35Qpkm_wjvvUAXli6_Uv7JVjxttDn6H5BNmBTg",
+      "CgbO9tXSQTjA4e4JtwX31nigfBGKd43iw3t7-rwT-hJQdvBVoKEknFwPSSk9NSeoXXcrX5dJ48fDHWO4D070EA"
+    ],
+    "verifies": true
+  },
+  "inputs": {
+    "choice": 0,
+    "ctx": "PDtpuO1voTHLizeKmHd-ssNFNMwGZSeoTLnLfhyrvsQ",
+    "k": 3,
+    "n": "2u7t4ab4aNo-YdfHHJEMdFYa-KgJf7ENCSbOZAL341M"
+  },
+  "mustVerify": true,
+  "name": "oneofk-k3-choice0",
+  "specVersion": "zktally/1"
+}

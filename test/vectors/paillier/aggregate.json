@@ -1,0 +1,22 @@
+{
+  "description": "Homomorphic sum of six ciphertexts.",
+  "expected": {
+    "aggregate": "NLbpGdUZngln4qusoFgji-zCAn9hzQf0OFiR9gGdsJvzSAQS10rAYPlSlZmfIz8wl5Ey0xUCFklbmXrofCMLkg",
+    "decrypted": "4",
+    "plaintextSum": "4"
+  },
+  "inputs": {
+    "ciphertexts": [
+      "CfWhWTwmi3lIpSJLvqpKEDQ87DpXZl88xdBzjLzz-14q_qdgqrHje14FqUxqXyWEi3BQPkrw-p7l8ajb95pFIw",
+      "uuhkgeQe8jD677YYWK2H1blAAVDxEcN20OXOgN5RT8vH3RdG15Y0dqc4o43VYJH00fOqLwShZ31Z9OAER1snfg",
+      "jTDGlzWWEPl-wxSoB05oakFRaJSbwO3PPOFynM5O0PxcpWNMfNNld-Qila4D-aD8RZieZvm6OHh3OG-QUyJlmA",
+      "FnL8WR8ChjpsrCqCnoQ2ZJNspPkaDUKYeDa9C4Jld2XGiFjTvWtr57lfGtNXIh3HgSGxkhuio3KMCb0h6loAVQ",
+      "X9qXL4D86kNGiU3O9JNm9bU0Icd4Fhk_aPgoFcLCenAy6QSiPHbJuxqthum4lCSYuBW2VJKbH29bRzOLsu0AOw",
+      "LH7RbVtHr6ZTo1Ew5B133sBXjQndzfrPzlSMIMFrPgAG42tA_vyhfVyak7UBL_DUk7hFU4K13jUN8CdkBEMhjA"
+    ],
+    "n": "2u7t4ab4aNo-YdfHHJEMdFYa-KgJf7ENCSbOZAL341M"
+  },
+  "mustVerify": true,
+  "name": "paillier-aggregate",
+  "specVersion": "zktally/1"
+}

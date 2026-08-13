@@ -1,0 +1,19 @@
+{
+  "description": "1-of-2 ballot selecting candidate 0.",
+  "expected": {
+    "ciphertexts": [
+      "qb_5pL8ilDQwDFtkPEV2hl50oqE1GB0azhUTZCCYfxF0Ui8x9CAwRsXkjgoRfFWCtmb83iumsXMSa77aB1Z2Wg",
+      "ptUPM6LrUTFmyJgAgC-gdsf7h6zqY3KfoWgbe9rAdJS36uYHzevyjpbJvhxVilJ9DwNN4DRqIF6plYtS4LRKuA"
+    ],
+    "verifies": true
+  },
+  "inputs": {
+    "choice": 0,
+    "ctx": "PDtpuO1voTHLizeKmHd-ssNFNMwGZSeoTLnLfhyrvsQ",
+    "k": 2,
+    "n": "2u7t4ab4aNo-YdfHHJEMdFYa-KgJf7ENCSbOZAL341M"
+  },
+  "mustVerify": true,
+  "name": "oneofk-k2-choice0",
+  "specVersion": "zktally/1"
+}

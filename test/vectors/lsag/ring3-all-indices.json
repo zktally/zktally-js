@@ -1,0 +1,53 @@
+{
+  "description": "Sign and verify at every one of the 3 signer indices. The last index is the C9 regression.",
+  "expected": {
+    "ringHash": "2VA4sO0tdsCNZHMubH-goVGC_cb-cTbBHfwdHAtbd1Y",
+    "ringHashPreimage": "5a4b54616c6c792d76313a52494e4700000003024238559f9747e3b1f436f962c5d986d12bb624aa368efec20341b414e9398aed0340486b12dc46626690452096afac2bd2bc1045f9cc0cd1dd95a9207dec2d725f035f1f766e283c06b01db215c61d4c202118c638f2414b68d6f7d463ce37a6ac8d",
+    "signatures": [
+      {
+        "c0": "wrEI0w36Z2q-n06qHPJrS379GoBPwqhEgqk5M4_nD5g",
+        "keyImage": "Algy3EVRean2oDg8gT4FvDIBUXjS9hjt-VomB5hJSzyg",
+        "responses": [
+          "Il46isYZCy73Dnw4M8q-R2TrANAX1maUkRU5ejDfkjM",
+          "V4WA9WFi8FwLRl0sC_9Yk1fxIF4-_i6Nxin9jhEfW4A",
+          "-b0WecPLXGTb-Vif1dq1RGfDkxiiNyzo4KkyDAcshsI"
+        ],
+        "signerIndex": 0,
+        "verifies": true
+      },
+      {
+        "c0": "_Baz_mIsjqTbnJytJWc0zpu0u49RWNJmMTO43pQ-q7c",
+        "keyImage": "A0GmYBtUJY1UWIM9HIjd97kEVKRF3EauMcWa1u8l5LUv",
+        "responses": [
+          "_tge0dMyxJBaWZ0dW9R_2VA9UQj7AtQ_q10k70TUiSI",
+          "LCTomJxx7ft8cY_VDL8AXvGrhEH2IUB_yXZecm97rxQ",
+          "CNl9myj99SUzhobzyUUzzAhfmqCU17kP_GOjLL_3s8o"
+        ],
+        "signerIndex": 1,
+        "verifies": true
+      },
+      {
+        "c0": "njce_rj-RmEN1JUTng1IdWFrqgA5rBlyHZkCQmcFA_0",
+        "keyImage": "A2AyzJF_FTlffRTbX4EYGIMmd_zD6aXEvsxk37ptFom2",
+        "responses": [
+          "7y2_Hcisro6Qi4QDvQ1fsAZVjF7CdszfkiNzv3OlwH4",
+          "tBMzCoKm4aJoYWgsy-U27XzPdjD5fpgEAhYuvhfiCM4",
+          "JfMC7tUMsTUulKVLaWci_l4DA1XYMcCngX2wIzYNEUk"
+        ],
+        "signerIndex": 2,
+        "verifies": true
+      }
+    ]
+  },
+  "inputs": {
+    "message": "2uMxiPp1ZrDY4I1geqA64Jo910eD08ggmUD-PzsmPZM",
+    "ring": [
+      "AkI4VZ-XR-Ox9Db5YsXZhtErtiSqNo7-wgNBtBTpOYrt",
+      "A0BIaxLcRmJmkEUglq-sK9K8EEX5zAzR3ZWpIH3sLXJf",
+      "A18fdm4oPAawHbIVxh1MICEYxjjyQUto1vfUY843pqyN"
+    ]
+  },
+  "mustVerify": true,
+  "name": "lsag-ring3-every-signer-index",
+  "specVersion": "zktally/1"
+}

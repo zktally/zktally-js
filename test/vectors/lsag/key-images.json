@@ -1,0 +1,30 @@
+{
+  "description": "Key image I = x*H_p(P) with RFC 9380 hash-to-curve. sha256(P)*P must NOT equal I -- that equality is break C1.",
+  "expected": {
+    "brokenC1Match": [
+      false,
+      false,
+      false
+    ],
+    "hashToPoint": [
+      "AvNpoeVhxpJaevS8DGDcZmNwrIj859f-Zt0THjk2Jqd9",
+      "AjMt_lIhixgS7mm3F_0xRl5olHw5DaCbQE7N0kVvSh3w",
+      "At3OdzDXi-pHtyEqGxRbLGK8SwoSFE2Sv1lD5jUCWd4p"
+    ],
+    "keyImages": [
+      "AsJxAyYplISc-3ABcF-H_j0jvbpum69v6FV5bHK2hedE",
+      "AhYPQz-JnIoIo2hS7By9PpTvj5OOBmUxHs2wPlZRAqYg",
+      "A7Yn5J-WWkfAD2ca0FIRzAUdNyr78FJRZDH8haT-rvTm"
+    ]
+  },
+  "inputs": {
+    "publicKeys": [
+      "AjGdQCr7ukXHD2ABLDiwZ5TnUgNuGNtWWzoxQZiJvT1a",
+      "AqIHS1eTuxAYnjfTup0nwAxvFCu4e2x07RpOMTKzKzQp",
+      "A5DgHCLeBs3kMn-7K5eU7KmN0oWsN8fJt5HU7i2jiFcp"
+    ]
+  },
+  "mustVerify": true,
+  "name": "lsag-key-images",
+  "specVersion": "zktally/1"
+}

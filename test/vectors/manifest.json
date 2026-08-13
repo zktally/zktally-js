@@ -1,0 +1,20 @@
+{
+  "files": {
+    "ballot/binary-body.json": "454e66f62778502e4243cd9e71969b2f4a52b3c76445b45e0e7cb379a6f081ec",
+    "encoding/worked-example.json": "56b785ee36ecf44391a455df3d39d6dde6aa395f4f0f885f71e532cf5049c93b",
+    "lsag/key-images.json": "9f820fa8441beaaf264949f4a5227f8ab6e1ad6ffaf3f17004d98f41454739f2",
+    "lsag/ring2-all-indices.json": "ffd354f8638dba50581031cb6a0d509364b178cfb8caa94dedcc24f035db92f7",
+    "lsag/ring3-all-indices.json": "2c5a205ee3e11b3465fcfc5b5baff337530e01cdd974a0251d99b3458df33dd3",
+    "lsag/ring8-all-indices.json": "29dc28f50e701e83994629444ee6a9969a9c182ca4b4db5b5bfca1d2001fd3ad",
+    "nizk-binary/valid-v0.json": "11a404136db8f9d7921353dfa56a9e2938bcc37df9919685a462569a75f226e4",
+    "nizk-binary/valid-v1.json": "7af25e90c66d2ece1cb7a2dbf3efe739698b44e598615b91ff397bb14cce19f0",
+    "nizk-oneofk/k2-choice0.json": "cb405ffd69e6016115edd26f6cefd4fe575f796f55f37de5eec783fda629872c",
+    "nizk-oneofk/k3-choice0.json": "b40ca96248bf4dc8ce116f1dcf240f4f10f75b1bb621c9de7b25b511f2f6a4e2",
+    "paillier/aggregate.json": "c46eef1cb81e6176e9d68f4834e8ced352e4eea3315e6a3bca1a1536dd3230d6",
+    "paillier/ciphertext-validity.json": "e8e072965367d7447463fa85a22213e44a958202a3566d8e1cccf8df2ffe6b3f",
+    "paillier/encrypt-decrypt.json": "9ca6e4dafa9d93213df6f8841ccd64366404848491cdab2da7a832c60a80b636"
+  },
+  "generator": "zktally",
+  "seed": "0000000000000000000000000000000000000000000000000000000000000000",
+  "specVersion": "zktally/1"
+}

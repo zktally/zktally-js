@@ -1,0 +1,39 @@
+{
+  "description": "Sign and verify at every one of the 2 signer indices. The last index is the C9 regression.",
+  "expected": {
+    "ringHash": "iILEBCvJ62JIs1uoZKgORfioZUDGkVAIViISQZBiFs0",
+    "ringHashPreimage": "5a4b54616c6c792d76313a52494e4700000002031b764dae6fe2d286e6f8d07e2df3ef16f8bf280add83fb0497480dae6297549303aa733b21cf36a84a502c694d8431dbf24bba908ba0e39f0ee7ff9bfac1d6e0e0",
+    "signatures": [
+      {
+        "c0": "5lsozbA-e1GVyeFRmBqWQ9H9uKhOyXKNTsI09-H_NKM",
+        "keyImage": "Ay6Y5GyM9eZDe9dSGkSnMuwZx5mhfIt0K1oMI8JvRhSx",
+        "responses": [
+          "1WKQT5W5KUZcBn1npPTIDWJh3isHBVZ0J8n1hUByJ68",
+          "61JONjYxEANGCRk5nuCw5Gkiy6iIZsbzCmCtQ1C0oyc"
+        ],
+        "signerIndex": 0,
+        "verifies": true
+      },
+      {
+        "c0": "prLgcSxHd3otYIwH8qRj4Tq3NKZ4gjUdx55QgetN2zw",
+        "keyImage": "Akuw3p4xX_zj7rgPrV6Ih-SZxgzSGUDOl94i7HfSVC_u",
+        "responses": [
+          "VdtyF7HTQ489yMHuV8Ki8LlszehZNaarxxvnfbVXGLg",
+          "lSogZBCfky76F1CbJydzGCVp_-X0jNJ7cosfnmhVOGs"
+        ],
+        "signerIndex": 1,
+        "verifies": true
+      }
+    ]
+  },
+  "inputs": {
+    "message": "2uMxiPp1ZrDY4I1geqA64Jo910eD08ggmUD-PzsmPZM",
+    "ring": [
+      "Axt2Ta5v4tKG5vjQfi3z7xb4vygK3YP7BJdIDa5il1ST",
+      "A6pzOyHPNqhKUCxpTYQx2_JLupCLoOOfDuf_m_rB1uDg"
+    ]
+  },
+  "mustVerify": true,
+  "name": "lsag-ring2-every-signer-index",
+  "specVersion": "zktally/1"
+}
