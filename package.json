@@ -1,0 +1,59 @@
+{
+  "name": "zktally",
+  "version": "0.1.0",
+  "description": "Privacy-preserving, anonymously verifiable e-voting from linkable ring signatures, Paillier homomorphic encryption, and NIZK vote-correctness proofs. Unaudited academic software; must not be used for any binding election.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./worker": {
+      "types": "./dist/worker.d.ts",
+      "import": "./dist/worker.js"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup && tsc -p tsconfig.build.json && node scripts/check-bundle-size.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "sync:vectors": "node scripts/sync-vectors.mjs",
+    "check": "npm run typecheck && npm run test && npm run build"
+  },
+  "dependencies": {
+    "@noble/curves": "2.3.0",
+    "@noble/hashes": "2.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "fast-check": "4.5.0",
+    "tsup": "8.5.0",
+    "typescript": "5.9.4",
+    "vitest": "4.0.18"
+  },
+  "keywords": [
+    "voting",
+    "e-voting",
+    "paillier",
+    "homomorphic-encryption",
+    "ring-signature",
+    "lsag",
+    "zero-knowledge",
+    "secp256k1"
+  ]
+}
